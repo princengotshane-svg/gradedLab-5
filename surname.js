@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       chars = surname.split("");
     }
 
-    // Place each character in the output div
+    // Here we place each character in the output div
     for (let j = 0; j < chars.length; j++) {
       let span = document.createElement("span");
       span.textContent = chars[j];
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function () {
         span.style.left = randomX + "px";
         span.style.top = randomY + "px";
       } else {
-        // Sequential or Reverse: 15px steps
+        // Sequential or Reverse
         let step = (j + 1) * 15;
         span.style.left = step + "px";
         span.style.top = step + "px";
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Color select toggles picker
+  // This is the Color select toggles picker
   document.getElementById("colorSelect").addEventListener("change", function () {
     let picker = document.getElementById("colorPicker");
     picker.style.opacity = (this.value === "custom") ? "1" : "0.4";
