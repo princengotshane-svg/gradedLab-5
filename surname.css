@@ -1,0 +1,53 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 30px;
+    }
+h1 { margin-bottom: 20px; }
+div { margin-bottom: 10px; }
+span { display: inline-block; width: 120px; font-weight: bold; }
+input[type="text"],
+input[type="number"],
+select {
+      padding: 6px 10px;
+      font-size: 0.95rem;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+button {
+      padding: 8px 20px;
+      background: #c47f00;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+button:hover { background: #a06500; }
+#output {
+      position: relative;
+      width: 400px;
+      height: 200px;
+      border: 2px solid #333;
+      background: white;
+      margin-top: 16px;
+      overflow: hidden;
+    }
+.letter-span {
+      position: absolute;
+      font-weight: bold;
+    }
+input[type="range"] { width: 200px; }
+input[type="color"] {
+      width: 40px;
+      height: 30px;
+      padding: 2px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+label.radio-label {
+      width: auto;
+      font-weight: normal;
+      margin-right: 12px;
+    }

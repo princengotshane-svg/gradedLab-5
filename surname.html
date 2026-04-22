@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>African Surname Blender</title>
+  <link rel="stylesheet" href="surname.css"/>
+</head>
+<body>
+
+<h1>Mr. Surname Blender</h1>
+
+<!-- Surname input -->
+<div>
+  <span>Surname:</span>
+  <input id="surname" type="text" size="20" placeholder="e.g. Mabokela"/>
+</div>
+
+<!-- The font dropdown -->
+<div>
+  <span>Font:</span>
+  <select id="font">
+    <option value="Arial">Arial</option>
+    <option value="Comic Sans MS">Comic Sans MS</option>
+    <option value="Times New Roman">Times New Roman</option>
+    <option value="Verdana">Verdana</option>
+  </select>
+</div>
+
+<!-- Position radio buttons -->
+<div>
+  <span>Position:</span>
+  <input id="sequential" name="pos" type="radio" value="seq" checked="checked"/>
+  <label class="radio-label" for="sequential">Sequential</label>
+  <input id="random" name="pos" type="radio" value="rand"/>
+  <label class="radio-label" for="random">Random</label>
+  <input id="reverse" name="pos" type="radio" value="rev"/>
+  <label class="radio-label" for="reverse">Reverse</label>
+</div>
+
+<!-- This is the colour dropdown -->
+<div>
+  <span>Text Color:</span>
+  <select id="colorSelect">
+    <option value="black">Black</option>
+    <option value="red">Red</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="custom">Custom...</option>
+  </select>
+  <input type="color" id="colorPicker" value="#000000" style="margin-left:8px;"/>
+</div>
+
+<!-- This is the Font size number input -->
+<div>
+  <span>Font Size:</span>
+  <input type="number" id="fontSize" placeholder="font size" value="16" min="8" max="80"/>
+  px
+</div>
+
+<!-- This is the Blend Now button -->
+<div>
+  <span>Go:</span>
+  <button id="blend-btn">Blend Now</button>
+</div>
+
+<!-- Output box -->
+<div id="output"></div>
+
+<script src="surname.js"></script>
+
+</body>
+</html>

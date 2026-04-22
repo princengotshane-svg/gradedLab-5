@@ -1,0 +1,101 @@
+/* 
+ * Student Number: 225203549
+ * DSW02A1 - Graded Lab 5
+ * Question 1: Vintage Cars Styles
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+/* Vintage Cars heading with border */
+h1 {
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 8px 40px;
+    margin: 0 auto 5px auto;
+    font-size: 24px;
+}
+
+/* Subtitle text */
+p {
+    margin: 5px 0 15px 0;
+    font-size: 14px;
+}
+
+/* Car info box with thick border */
+#car-info {
+    border: 3px solid #333;
+    padding: 15px;
+    margin: 0 auto 20px auto;
+    width: 380px;
+    background-color: #fff;
+}
+
+/* Car name heading inside box */
+#car-info h2 {
+    border: 2px solid #333;
+    padding: 8px;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Car image */
+#car-img {
+    width: 320px;
+    height: 240px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hide image initially */
+.hidden {
+    display: none !important;
+}
+
+/* Guess UI section */
+#guess-ui {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+/* Make label */
+#guess-ui {
+    font-weight: normal;
+}
+
+/* Dropdown styling */
+#make-list {
+    font-size: 14px;
+    padding: 2px 5px;
+    margin: 0 5px;
+}
+
+/* Guess button */
+#guess-btn {
+    font-size: 13px;
+    padding: 2px 8px;
+    cursor: pointer;
+}
+
+/* Disabled button state */
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Counters */
+#correct, #total {
+    font-weight: bold;
+}
+
+/* Counter paragraphs */
+div > p {
+    margin: 5px 0;
+    font-size: 14px;
+}
